@@ -16,9 +16,23 @@ header {
     top: 0;
     z-index: 1200;
     width: 100%;
+    margin: 0;
+    padding:0;
+}
+.cont {
     background-color: rgb(0,0,0,0.3);
     margin:0;
     padding: 10px;
+}
+.row-head {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hr-top {
+    position: sticky;
+    z-index: 1200;
+    width: 100%;
 }
 .container {
     width: 100% !important;
@@ -61,6 +75,34 @@ header {
 .hr-bottom {
     margin-bottom: 2px;
 }
+
+.body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#images {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.image {
+    height: 18.4em;
+    margin: 2px;
+}
+.bw {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity:0.8;
+}
+.open-image {
+    position: absolute;
+    width: 70%;
+}
+/* footer */
+
+
+
 footer {
     width: 100%;
     background-color: rgb(0,0,0,0.3);
@@ -71,6 +113,19 @@ footer {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.65em;
+    display: inline-block;
 }
-
+.icons i {
+    display: inline-block;
+    color: #DAF0B2;
+    margin-right: 15px;
+}
+.icons i:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.container-bottom {
+    margin-right: auto;
+    margin-left: auto;
+}
 
