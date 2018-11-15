@@ -12,9 +12,6 @@ Header
 header {
     padding: 10px 10px 0 10px;
     background: white;
-    position: sticky;
-    top: 0;
-    z-index: 1200;
     width: 100%;
     margin: 0;
     padding:0;
@@ -28,11 +25,6 @@ header {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-}
-.hr-top {
-    position: sticky;
-    z-index: 1200;
-    width: 100%;
 }
 .container {
     width: 100% !important;
@@ -80,11 +72,16 @@ header {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+   
 }
 #images {
     margin-top: 2em;
     margin-bottom: 2em;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 .image {
     height: 18.4em;
@@ -99,6 +96,23 @@ header {
     position: absolute;
     width: 70%;
 }
+a, a:hover {
+    text-decoration: none;
+}
+
+/*
+gallery
+*/
+
+.lg-thumb-item{
+    opacity: 0.3 !important;
+}
+.lg-thumb-item:hover, .lg-thumb-item.active, .lg-thumb-item:focus{
+    opacity: 1 !important;
+    border: 2px solid white !important;
+}
+
+
 /* footer */
 
 

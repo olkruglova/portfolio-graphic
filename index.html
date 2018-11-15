@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.0/css/lightgallery.min.css" />
+    <link rel="icon" type="image/png" href="images/krol_logo.png">
+    <script src="js/lightgallery.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <title>Portfolio Site by Krol'</title>
 
@@ -19,7 +23,7 @@
             <div class="cont">
                 <div class="row row-head">
                     <div class="col-12 head">
-                        <img class="logo" src="images/Krol_logo.png" alt="Logo krol">
+                        <img class="logo" src="images/krol_logo.png" alt="Logo krol">
                         <div class="vl"></div>
                         <div class="header">
                             <h3 class="name">Olha Kruhlova</h3>
@@ -31,30 +35,69 @@
             <hr class="hr-top">
         </header>
 
-        <div class="body">
+        <div class="row body">
             <div id="images">
-                <img class="image bw" src="images/zdrowa-żywność-India.png" alt="Zdrowa żywność">
-                <img class="image bw" src="images/slider-plecak-lato-1.png" alt="Plecak na wakacje">
-                <img class="image bw" src="images/Dzień-chłopaka-post-fb.png" alt="Dzień chłopaka">
-                <img class="image bw" src="images/slide-dzień-matki.png" alt="Dzień matki slider">
-                <img class="image bw" src="images/post-dzień-matki-2.png" alt="Dzień matki post">
-                <img class="image bw" src="images/serum.png" alt="Serum">
-                <img class="image bw" src="images/CBD-99-pop-up.png" alt="CBD">
-                <img class="image bw" src="images/India-kosmetyki-konopne.png" alt="Kosmetyki konopne">
-                <img class="image bw" src="images/mailing-szampony.png" alt="Szampony">
-                <img class="image bw" src="images/top-mailing.png" width="625" alt="Jesienny zestaw">
-                <img class="image bw" src="images/Serum-gratis-jesień-1.png" alt="Serum gratis">
-                <img class="image bw" src="images/kosmetyki-naturalne-India.png" alt="Kosmetyki naturalne">
-                <img class="image bw" src="images/reklama-1.png" alt="Kosmetyki konopne">
-                <br>
-                <img class="image bw" src="images/reklama-2.png" alt="Niezwykle kosmetyki">
-                <img class="image bw" src="images/reklama-hurtow.png" alt="Szampony gratis">
-                <img class="image bw" src="images/slider-plecak.png" alt="Slider plecak">
-                <img class="image bw" src="images/Slider-prodykty zielarskie -10.png" alt="Produkty zielarskie">
-                <img class="image bw" src="images/szampony-pop-up-3.png" alt="Szampony">
-                <img class="image bw" src="images/Relacja-1(rumianek).png" alt="Szampon z rumiankiem">
-                <img class="image bw" src="images/Szampony-slider.png" alt="Szampony slider">
-                <img class="image bw" src="images/slider_CBD_13-12-1.png" alt="Slider CBD">
+                    <a href="images/zdrowa-żywność-India.png">
+                        <img class="image bw" src="images/zdrowa-żywność-India.png" alt="Zdrowa żywność">
+                    </a>
+                    <a href="images/slider-plecak-lato-1.png">
+                        <img class="image bw" src="images/slider-plecak-lato-1.png" alt="Plecak na wakacje">
+                    </a>
+                    <a href="images/Dzień-chłopaka-post-fb.png">
+                        <img class="image bw" src="images/Dzień-chłopaka-post-fb.png" alt="Dzień chłopaka">
+                    </a>
+                    <a href="images/India-kosmetyki-konopne.png">
+                        <img class="image bw" src="images/India-kosmetyki-konopne.png" alt="Kosmetyki konopne">
+                    </a>
+                    <a href="images/slide-dzień-matki.png">
+                        <img class="image bw" src="images/slide-dzień-matki.png" width="630" alt="Dzień matki slider">
+                    </a>
+                    <a href="images/post-dzień-matki-2.png">
+                        <img class="image bw" src="images/post-dzień-matki-2.png" alt="Dzień matki post">
+                    </a>
+                    <a href="images/serum.png">
+                        <img class="image bw" src="images/serum.png" alt="Serum">
+                    </a>
+                    <a href="images/mailing-szampony.png">
+                        <img class="image bw" src="images/mailing-szampony.png" alt="Szampony">
+                    </a>
+                    <a href="images/reklama-2.png">
+                        <img class="image bw" src="images/reklama-2.png" alt="Niezwykle kosmetyki">
+                    </a>
+                    <a href="images/szampony-pop-up-3.png">
+                        <img class="image bw" src="images/szampony-pop-up-3.png" alt="Szampony">
+                    </a>
+                    <a href="images/Relacja-1(rumianek).png">
+                        <img class="image bw" src="images/Relacja-1(rumianek).png" alt="Szampon z rumiankiem">
+                    </a>
+                    <a href="images/top-mailing.png">
+                        <img class="image bw" src="images/top-mailing.png" alt="Jesienny zestaw">
+                    </a>
+                    <a href="images/Serum-gratis-jesień-1.png">
+                        <img class="image bw" src="images/Serum-gratis-jesień-1.png" alt="Serum gratis">
+                    </a>
+                    <a href="images/Szampony-slider.png">
+                        <img class="image bw" src="images/Szampony-slider.png" alt="Szampony slider">
+                    </a>
+                    <a href="images/slider-plecak.png">
+                        <img class="image bw" src="images/slider-plecak.png" alt="Slider plecak">
+                    </a>
+                    <a href="images/Slider-prodykty zielarskie -10.png">
+                        <img class="image bw" src="images/Slider-prodykty zielarskie -10.png" alt="Produkty zielarskie">
+                    </a>
+                    <a href="images/kosmetyki-naturalne-India.png">
+                        <img class="image bw" src="images/kosmetyki-naturalne-India.png" alt="Kosmetyki naturalne">
+                    </a>
+                    <a href="images/reklama-1.png">
+                        <img class="image bw" src="images/reklama-1.png" alt="Kosmetyki konopne">
+                    </a>
+                    <a href="images/reklama-hurtow.png">
+                        <img class="image bw" src="images/reklama-hurtow.png" alt="Szampony gratis">
+                    </a>
+                    <a href="images/CBD-99-pop-up.png">
+                        <img class="image bw" src="images/CBD-99-pop-up.png" alt="CBD">
+                    </a>
+                    
             </div>
         </div>
 
@@ -74,6 +117,14 @@
     </div>
 
     <script src="js/script.js"></script>
+    <script src="node_modules/lg-thumbnail/src/lg-thumbnail.js"></script>
+    <!--<script src="node_modules/lg-autoplay/src/lg-autoplay.js"></script>-->
+    <script src="node_modules/lg-fullscreen/src/lg-fullscreen.js"></script>
+    <script src="node_modules/lg-hash/src/lg-hash.js"></script>
+    <script src="node_modules/lg-pager/src/lg-pager.js"></script>
+    <!--<script src="node_modules/lg-share/src/lg-share.js"></script>-->
+    <script src="node_modules/lg-zoom/src/lg-zoom.js"></script>
+
 
 </body>
 
