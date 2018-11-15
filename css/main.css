@@ -10,16 +10,16 @@ Header
 
 */
 header {
-    padding: 10px 10px 0 10px;
+    padding: 10px 0 0 0;
     background: white;
     width: 100%;
-    margin: 0;
-    padding:0;
+    top:0;
+    position:sticky;
+    z-index:3;
+    background-color: rgb(0,0,0,0.3);
 }
 .cont {
-    background-color: rgb(0,0,0,0.3);
-    margin:0;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 .row-head {
     width: 90%;
@@ -56,16 +56,25 @@ header {
     vertical-align: baseline;
     margin-top: 2.5em;
 }
-.hr-top, .hr-bottom {
+.hr-top, .hr-bottom, .hr-top-white {
     border: none;
     height: 2px;
-    color: rgb(0,0,0,0.3);/* old IE */
-    background-color: rgb(0,0,0,0.3);/* Modern Browsers */
-    margin: 2px 0 0 0;
     width: 100%;
+}
+.hr-top-white{
+    color: #fff;/* old IE */
+    background-color: #fff;/* Modern Browsers */
+    margin: 0;
 }
 .hr-bottom {
     margin-bottom: 2px;
+    color: rgb(0,0,0,0.3);/* old IE */
+    background-color: rgb(0,0,0,0.3);/* Modern Browsers */
+}
+.hr-top {
+    margin:0;
+    color: rgb(0,0,0,0.03);/* old IE */
+    background-color: rgb(0,0,0,0.03);/* Modern Browsers */
 }
 
 .body {
